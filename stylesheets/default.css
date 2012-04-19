@@ -1,0 +1,457 @@
+v\:* {
+      behavior:url(#default#VML);
+    }
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+}
+/* SEÇÕES DA PAGINA */
+
+/* content: div que engloba toda a pagina */
+#content {
+	margin: 0px 15px 0px 15px;
+	border-right: 5px solid rgb(193,207,93);
+	border-left: 5px solid rgb(193,207,93);
+	border-top: 0;
+	border-bottom: 0;
+	padding: 0px 10px;
+	text-align: center;
+	background-color: #FFF;
+}
+
+/* top: topo da página */
+#top {
+	/*background-color: #fff;*/
+	text-align: left;
+	font-size: 100%;
+	padding: 0;
+	border: 1px solid red;
+	margin: 1px;
+	display:none;
+}
+
+/* header: barra de titulo */
+#header {
+	height: 150px;
+	text-align: left;
+	background-color: #FFF;
+	border: 0px;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: 15px;
+	margin-bottom: 0px;
+	background-image: url(../img/headerBack.jpg);
+	background-repeat: repeat-x;
+	background-position: middle left;
+}
+#header h1 {
+	margin:0;
+	padding:0;
+	float: right;
+	margin-top: 26px;
+}
+#headerP1 {
+	float: left;
+	width: 250px;
+	height: 150px;
+	display: inline;
+	border: 0px;
+	margin: 0px;
+	padding: 0;
+	background-image: url(../img/headerP1.jpg);
+	background-repeat: no-repeat;
+	background-position: middle left;
+}
+#headerP2 {
+	float: right;
+	width: 70px;
+	height: 150px;
+	display: inline;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/headerP2.jpg);
+	background-repeat: no-repeat;
+	background-position: middle right;
+}
+
+
+/* menuBar: barra de menu do site */
+#menuBar {
+	height: 41px;
+	text-align: center;
+	font-family: Verdana, Arial;
+	color: black;
+	background-color: #FFF;
+	border: 0px;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	padding: 0;
+	background-image: url(../img/menuBarBack.jpg);
+	background-repeat: repeat-x;
+	background-position: middle left;
+}
+#menuBarP1 {
+	float: left;
+	width: 60px;
+	height: 41px;
+	display: inline;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/menubarP1.jpg);
+	background-repeat: no-repeat;
+	background-position: middle left;
+}
+#menuBarP2 {
+	float: right;
+	width: 60px;
+	height: 41px;
+	display: inline;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/menubarP2.jpg);
+	background-repeat: no-repeat;
+	background-position: middle left;
+}
+#menuBar p{
+	margin: 0;
+	padding: 10px 0 0 0;
+	font-style: italic;
+	font-size: 11pt;
+	font-weight: bold;
+}
+#menuBar a:link, #menuBar a:visited { color: black; text-decoration: none; }
+#menuBar a:hover, #menuBar a:active { color: rgb(255,102,0); text-decoration: underline; }
+.little{
+	font-size: 8pt;
+}
+.orange {
+	color: rgb(255,102,0);
+}
+
+/* footer: rodapé do site */
+#footer {
+	clear: both;
+	height: 28px;
+	margin: 0px 15px 15px 15px;
+	border: 0;
+	text-align: center;
+	font-family: Verdana, Arial;
+	color: black;
+	font-size: 0.7em;
+	font-weight: bold;
+	background-image: url(../img/footerBack.jpg);
+	background-repeat: repeat-x;
+	background-position: middle left;
+}
+#footerP1 {
+	float: left;
+	width: 28px;
+	height: 28px;
+	display: inline;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/footerP1.jpg);
+	background-repeat: no-repeat;
+	background-position: middle left;
+}
+#footerP2 {
+	float: right;
+	width: 28px;
+	height: 28px;
+	display: inline;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/footerP2.jpg);
+	background-repeat: no-repeat;
+	background-position: middle left;
+}
+
+/* adsenseDiv: propaganda  */
+#adsenseDiv {
+	margin: 10px 0;
+	width: 200px;
+	float: left;
+}
+
+/* navigation: barra de navegacao auxiliar da pagina  */
+#navigation { 
+	float: right;
+	text-align: left;
+	font-family: Arial, sans-serif;
+	width: 220px;
+	border: 0;
+	margin: 10px 0;
+	padding: 0;
+}
+#navigation h2 {
+	font-size: 11pt;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+#navigation p {
+	font-size: 8pt;
+	margin: 0;
+	padding: 0;
+}
+
+/* mainContent: conteúdo principal da pagina */
+#mainContent {
+	margin: 0 230px 10px 210px;
+	padding: 10px 0 0;
+	text-align: justify;
+	font-family: Arial, sans-serif;
+	border: 0;
+}
+#mainContent h2 {
+	font-size: 11pt;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+#mainContent p {
+	font-size: 12px;
+	color: black;
+	margin: 0;
+	padding: 0;
+}
+#mainContent ul{
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+}
+#mainContent a:link, #mainContent a:visited { color:#185F0F; text-decoration: underline; font-weight: bold;}
+#mainContent a:hover, #mainContent a:active { color: #18FF0F; text-decoration: underline; font-weight: bold;}
+
+.externalLinks  {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+}
+
+#exportLinkDiv {
+	margin: 0 0 10px 0;
+	padding: 0;
+	text-align: justify;
+	font-family: Arial, sans-serif;
+	border: 0;
+	display: none;
+}
+#exportLinkDiv fieldset {
+	font-size: 11px;
+	color: black;
+	overflow: auto;
+	margin: 0;
+	padding: 10px;
+}
+#exportLinkValue  {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	border: 0;
+	overflow: auto;
+	margin: 15px 0 0 0;
+	padding: 0;
+	height: 40px;
+}
+#exportLinkDiv a:link, #exportLinkDiv a:visited { color:#185F0F; text-decoration: underline; font-weight: bold;}
+#exportLinkDiv a:hover, #exportLinkDiv a:active { color: #18FF0F; text-decoration: underline; font-weight: bold;}
+
+.tinyText {
+	font-family: Arial, sans-serif;
+	text-align: left;
+	font-size: 10px;
+	margin: 0;
+	padding: 0;
+}
+
+/* CSS relacionado ao MAPA */
+.header {
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 0px;
+	border-bottom: 1px dashed #999;
+	margin: 0px;
+	margin-bottom: 4px;
+	padding-bottom: 4px;
+	color: #333;
+}
+.align {
+	vertical-align: -3px;
+}
+
+/* Estilos relacionados ao mapa ----------------------------------------------------------------------------------------------------------------------------- */
+#mapContainer {
+	margin: 10px 0;
+	border: 0;
+	padding: 0;
+	font-family: Verdana, Arial, courier;
+	text-align: justify;
+	clear: both;
+}
+#mapContainer form {
+	margin: 0;
+	padding: 0;
+}
+#mapHeader {
+	height: 40px;
+	font-size: 9pt;
+	clear: both;
+	margin: 5px 3% 5px 0;
+}
+#centerMapForm  {
+	float: right;
+	font-size: 8pt;
+}
+#centerMapForm  #txtAddress {
+	border: 1px solid #999;
+	width: 150px;
+}
+#map {
+	width: 75%;
+	height: 500px;
+	border: 1px solid gray;
+	float: left;
+}
+#iNearID {
+	width: 21%;
+	height: 500px;
+	margin-left: 10px;
+	border: 1px solid gray;
+}
+#i18nID {
+	display: none;
+	width: 1px;
+	height: 1px;
+}
+#compass {
+	border: 0px;
+	position: absolute;
+	display: none;
+}
+#compass img {
+	border: 0px;
+	filter: alpha(opacity=50); 
+	-moz-opacity:0.5;
+}
+.help {
+	font-size: 7pt;
+	background-color: #ffc;
+	border: 1px solid black;
+	padding: 3px;
+	text-align: left;
+	overflow: auto;
+}
+#helpIcon {
+	margin: 0 2px 20px 0;
+	float: left;
+}
+/* Estilos relacionados a infow window formulario */
+#infoForm {
+	width: 400px;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+#infoForm span {
+	font-size: 0.7em;
+}
+#infoForm  fieldset {
+	border: 1px solid #00AA00;
+	margin: 0px;
+	padding: 5px;
+}
+#infoForm  legend {
+	font-size: 0.7em;
+	font-weight: bold;
+}
+#infoForm  #degreeInput {
+	font-size: 0.7em;
+	border: 1px solid #999;
+	width: 60px;
+}
+#infoForm  #range {
+	font-size: 0.7em;
+	border: 1px solid #999;
+	width: 50px;
+}
+#infoForm  #track {
+	width:380px;
+	background-image: url("../img/sliderTrack.gif");
+	height:20px;
+}
+#infoForm  #handle {
+	width:20px;
+	height:20px;
+	background-image: url("../img/handler.gif");
+	cursor:e-resize;
+}
+#infoForm  .left {
+	display: inline;
+	float: left;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	width: 125px;
+}
+#infoForm  .right {
+	display: inline;
+	float: right;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+#infoForm .button {
+	font-size: 0.7em;
+	margin-top: 5px;
+	width: 60px;
+}
+/* Estilos relacionados a infow window formulario */
+.infoHouse {
+	width: 400px;
+	border: 0;
+	margin: 0;
+	padding: 0 0 5px 0;
+}
+.infoHouse span {
+	font-size: 0.7em;
+}
+.infoHouse h3 {
+	font-size: 10pt;
+}
+/* Estilos relacionados ao mapa FIM ----------------------------------------------------------------------------------------------------------------------------- */
+#nothing {
+	height: 20px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+h1, h2, h3, h4 { color: #185F0F; }
+
+.red {
+	color: red;
+}
+input {
+	border: 1px solid #999;
+}
+.field {
+	width: 90%
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.clearBoth  {
+	clear: both;
+}

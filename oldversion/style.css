@@ -1,0 +1,319 @@
+/*
+    *** Corpus de Aprendizes ***
+    Copyright (2004) Grupo PET Computação USP São Carlos
+
+*/
+body { background-color: #FFFFFF;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+h1 {
+ 	font-size: 1.5em;
+  	font-weight: bold;
+  	margin: 1px;
+}
+
+h2 {
+	/*float: left;*/
+	display: inline;
+	font-size: 1.0em;
+  	font-weight: bold;
+	padding: 2px;
+  	margin: 5px;  
+  	border-top: 1px solid black;
+  	border-bottom: 1px solid black;
+  	color: rgb(156,164,179);  
+}
+
+h3 {
+ 	font-size: 1.0em;
+  	font-weight: bold;
+  	margin: 1px;
+}
+
+#sitemap {
+ 	font-size: 0.7em;
+ 	float: right;
+}
+
+img.mapalign {
+	vertical-align: -20%;
+}
+
+img.loginalign {
+	vertical-align: -80%;
+}
+
+.txt {
+	font-size: 0.7em;
+}
+
+.red {
+	color: red;
+}
+
+.ctr {
+	text-align: center;
+	width: 100%;	
+}
+
+form {
+	display: inline;
+}
+
+/* Cabecalho (acima do menu)*/
+.titulo {
+      /*clear: both;*/
+	/*background-color: ; */
+	background: #FFFFFF url('../img/topbg.gif') no-repeat scroll bottom left;
+ 	padding: 5px;
+	/*border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black; */
+	height: 30px;
+	/*width: 100%; */
+}
+
+/* Cabecalho (acima do menu)*/
+#titulo2 {
+      /*clear: both;*/
+	/*background-color: ; */
+	background: #FFFFFF url('../img/topbg2.gif') no-repeat scroll top right;
+ 	padding-top: 10px;
+ 	text-align: center;
+ 	/*padding-left: 40px;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black; */
+	height: 30px;
+	/*width: 100%; */
+}
+
+/* barra de menu*/
+#barra {
+      /*clear: both;*/
+      /*width: 100%;  */
+      padding-left: 70px;
+      height: 24px;
+      /*vertical-align: middle;*/
+      background: /*#FFDB6F*/ rgb(255, 231, 159) /*rgb(188,208,195)*/ url('../img/barrabg.gif') no-repeat scroll bottom left;
+	/*border-left: 1px solid black;
+	border-right: 1px solid black;*/
+	/*float: left;*/
+	/*display: inline;*/
+}
+
+/* rodape */
+#rodape {
+      /*clear: both;*/
+      /*width: 100%;  */
+      padding: 10px;
+      background: /*#FFDB6F*/ rgb(255, 231, 159) /*rgb(188,208,195)*/ url('../img/barrabg2.gif') no-repeat scroll top right;
+
+	/*border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;*/
+	/*float: left;*/
+}
+
+/*  div do conteudo */
+#conteudo {
+      clear: both; 
+      padding: 10px;
+	/*text-align: justify;*/
+	/*border-left: 1px solid black;
+	border-right: 1px solid black;*/
+	/*float: left;*/
+}
+
+#conteudo p {
+	font-size: 0.7em;	
+}
+
+/* logins container */
+#loginContainer {
+	padding: 5px;
+      width: 620px;
+      margin-left: auto; /* centraliza o div */
+      margin-right: auto;
+      border: 0px;
+      text-align: justify;
+}
+
+#loginContainer span {
+	font-size: 0.7em;	
+}
+
+/* div do login de aluno */
+#alunoLogin {
+      /*clear: both; */
+      padding: 5px;
+      width: 260px;
+      /*height: 300px;*/
+	background-color: rgb(226,229,206);
+	border: 0px solid black;
+}
+
+/* div do login de professor */
+#profLogin {
+       /*clear: both; */
+      padding: 5px;
+      width: 260px;
+      /*height: 300px;*/
+	background-color: rgb(229,207,209);
+	border: 0px solid black;
+	float: right;
+}
+
+/* formulario */
+.forms {
+	width: 600px;
+	text-align: justify;
+}
+
+label {
+	font-size: 0.7em;
+ 	text-align: justify;
+ 	margin: 3px;
+}
+
+fieldset {
+	border: 0px;
+	margin: 5px;
+	padding: 0px;	
+}
+
+.esquerda {
+	float: left;
+	padding: 0px;
+	margin: 5px 5px;
+}
+
+.Fborder {
+	border: 1px solid rgb(189,137,34);
+}
+
+legend {
+	font-size: 0.7em;
+ 	font-weight: bold;	
+}
+
+/* Links */
+a:link {
+	font-weight: bold;
+         text-decoration: none;
+         color: #000088;
+}
+
+a:visited { font-weight: bold;
+         text-decoration: none;
+         color: #000088;
+}
+
+a:hover {
+         font-weight: bold;
+         text-decoration: underline;
+         color: #880000;
+}
+
+#barra .menuItem {
+	display:inline;
+}
+
+#barra a {
+	display:inline;
+	float: left;
+	padding: 6px 6px;
+	width:60px;
+	height: 12px;
+	border-right: 2px solid white;
+	background-color: rgb(255, 199, 111)/*rgb(188,195,208)*/;
+	text-decoration: none;
+	color: #000088;
+}
+
+#barra a.inicio {
+	border-left: 2px solid white;
+}
+
+#barra a:hover {
+      background-color: rgb(230,230,230);
+      color: #000000;
+}
+
+/* Menu do Aluno autenticado */
+#menuAluno {
+	width: 150px;
+	margin: 15px;
+	background-color: rgb(226,229,206);
+ 	border: 0px;
+	float: right;
+}
+
+/*#menuAluno span*/
+
+#menuAluno a {
+	display:inline;
+	float: right;
+	padding: 2px 5px;
+	width: 140px;
+	border-top: 1px solid white /*rgb(50,50,50)*/;
+	background-color: rgb(226,229,206);
+	text-decoration: none;
+	color: #000088;
+}
+
+#menuAluno a.inicio {
+	border-top: 0px;
+}
+
+#menuAluno a:hover {
+      background-color: rgb(230,230,230);
+      color: #000000;
+}
+
+
+/* Menu do Admin autenticado */
+.menuAdmin {
+	width: 150px;
+	margin: 15px;
+	background-color: rgb(226,229,206);
+ 	border: 0px;
+	float: right;
+}
+
+/*#menuAdmin span*/
+
+.menuAdmin a {
+	display:inline;
+	float: right;
+	padding: 2px 5px;
+	width: 140px;
+	border-top: 1px solid white;
+	background-color: rgb(229,207,209);
+	text-decoration: none;
+	color: #000088;
+}
+
+.menuAdmin a.inicio {
+	border-top: 0px;
+}
+
+.menuAdmin a:hover {
+      background-color: rgb(230,230,230);
+      color: #000000;
+}
+
+/* Input types */
+.botao { font-family: Verdana, Arial, sans-serif;
+         font-weight: normal; 
+         font-size: 11px;
+         border: 2px outset;
+         cursor: pointer; }
+
+.texto { border: 1px solid #002255;   
+         background-color: #EEEEFF;
+         font-family: Verdana, Arial, sans-serif;
+         font-weight: normal; 
+         font-size: 11px; 
+         color: #000000; }
