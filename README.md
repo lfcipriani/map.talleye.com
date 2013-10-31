@@ -8,3 +8,7 @@ It includes the source code of:
 
 I decided to shutdown the service and the hosting, I don't have time to do maintenances anymore.
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/lfcipriani/map.talleye.com/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
